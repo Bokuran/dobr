@@ -1,0 +1,20 @@
+@mixin button__blue {
+  background-color: #0A507A;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #FFF;
+}
+
+@mixin button__black {
+  background-color: #2B2A29;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #FFF;
+}
+
+@mixin button__transparent {
+  padding: 10px 20px;
+  border: 1px solid #0A507A;
+  border-radius: 30px;
+  color: #0A507A;
+}
