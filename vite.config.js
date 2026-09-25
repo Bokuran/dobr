@@ -3,10 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  // 👇 Это самая важная строка, из-за которой всё сломалось
   base: '/dobr/', 
-  
-  plugins: [react()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
