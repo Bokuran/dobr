@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  // 👇 ДОБАВЬТЕ ЭТУ СТРОКУ
+  // 👇 Это самая важная строка, из-за которой всё сломалось
   base: '/dobr/', 
   
   plugins: [react()],
@@ -13,5 +13,4 @@ export default defineConfig({
       '@components': path.resolve(__dirname, './src/components'),
     },
   },
-  // ... остальное
 })
